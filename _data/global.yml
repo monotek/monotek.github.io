@@ -12,3 +12,12 @@ footer_text: 'This text is footer text. Footer text goes here.'
 admin_name: 'André Bauer'
 admin_email: 'mail at andre-bauer org'
 
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
