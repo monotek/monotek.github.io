@@ -1,3 +1,4 @@
 main:
     - { url: '/', text: 'Blog' }
     - { url: '/about', text: 'About' }
+    - { url: '/contact', text: 'Contact' }
