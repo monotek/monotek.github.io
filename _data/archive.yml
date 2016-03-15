@@ -1,6 +1,10 @@
 jekyll-archives:
-  enabled: all
-  layout: 'archive'
+  enabled: 'all'
+  layouts:
+    year: 'archive-year'
+    month: 'archive-mont'
+    day: 'archive-day'
+    tag: 'archive-tag'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
