@@ -1,12 +1,3 @@
-# Site settings
-title: Just another blog
-email: mail at andre-bauer org
-description: Blogs and notes...
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.andre-bauer.org" # the base hostname & protocol for your site
-twitter_username: mono_tek
-github_username:  monotek
-
 # Where things are
 source:      .
 destination: ./_site
