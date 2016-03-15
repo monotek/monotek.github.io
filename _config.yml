@@ -25,6 +25,7 @@ whitelist: []
 gems: 
     - jekyll-paginate
     - jekyll-archives
+    - jekyll-feed
 
 # Conversion
 markdown:    kramdown
