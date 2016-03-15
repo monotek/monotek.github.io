@@ -26,6 +26,7 @@ gems:
     - jekyll-paginate
     - jekyll-archives
     - jekyll-feed
+    - jekyll-sitemap
 
 # Conversion
 markdown:    kramdown
