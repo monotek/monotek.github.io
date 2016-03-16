@@ -5,6 +5,8 @@ permalink: /about/
 ---
 
 André Bauer
+===========
+
 * from Dresden
 * heavy interest in IT
 * Open source enthusiast
