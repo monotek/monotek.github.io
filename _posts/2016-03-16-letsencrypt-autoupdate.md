@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: 'Monthly autoupdates of letsencrypt certs'
-date: 2016-03-14 15:00:00
+date: 2016-03-16 15:00:00
 categories: ssl letsencrypt
 tags: Blog
 #featured_image: 'https://letsencrypt.org/images/letsencrypt-logo-horizontal.svg'
