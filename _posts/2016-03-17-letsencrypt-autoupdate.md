@@ -4,7 +4,7 @@ title: 'Monthly autoupdates of letsencrypt certs'
 date: 2016-03-14 15:00:00
 categories: ssl letsencrypt
 tags: Blog
-featured_image: 'https://letsencrypt.org/images/letsencrypt-logo-horizontal.svg'
+#featured_image: 'https://letsencrypt.org/images/letsencrypt-logo-horizontal.svg'
 #featured_video: 'https://www.youtube.com/watch?v=Bt9zSfinwFA'
 #lead_text: ' bla bla'
 ---
