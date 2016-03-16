@@ -73,7 +73,7 @@ exitcode "nginx reload"
 ~~~
 {: .language-bash}
 
-You can run this script manualy to check if everything works. If so just create the following cronjob, which triggers this monthly. \
+You can run this script manualy to check if everything works. If so just create the following cronjob, which triggers this monthly. 
 
 
 /etc/cron.d/letsencrypt-renew
@@ -83,3 +83,4 @@ You can run this script manualy to check if everything works. If so just create 
 @monthly root /root/letsencrypt-renew.sh 2>&1 > /var/tmp/letsencrypt.log
 ~~~
 
+Thats it. Have fun. Never care about renewing you SSL certs again :-)
