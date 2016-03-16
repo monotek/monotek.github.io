@@ -11,7 +11,7 @@ tags: Blog
 
 <http://letsencrypt.org> is cool, because it provides SSL certs for all of your domains for free! The only thing which is a bit challenging is that you have to renew your certs every 3 months. I made a script, monthly triggered by cron, which does this for you.\\
 \\
-This script assumes you're using nginx webserver (which is reloaded by the script after recreating certs) and that your domains are located unter /var/www/domain.name/html. Your letsenrypt installation is configured via the "LETSENCRYPT_DIR" var. The certs are linked to the directory configured via "NGINX_CERTS" var which is used to have a static symlink that points to your cert without getting renamed so you can keep your webserver config untouched.\\
+This script assumes you're using nginx webserver (which is reloaded by the script after recreating certs) and that your domains are located under /var/www/domain.name/html. Your letsenrypt installation is configured via the "LETSENCRYPT_DIR" var. The certs are linked to the directory configured via "NGINX_CERTS" var which is used to have a static symlink that points to your cert without getting renamed so you can keep your webserver config untouched.\\
 \\
 The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also created for the "www" subdomain automaticly. If its a subdomain like "blog.andre-bauer.org" this step is skipped.
 
