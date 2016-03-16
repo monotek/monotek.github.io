@@ -13,9 +13,7 @@ tags: Blog
 \\
 This script asumes you're using nginx webserver (which is reloaded by the script after recreating certs) and that your domains are located unter /var/www/domain.name/html. Your letsenrypt installation is configured via the "LETSENCRYPT_DIR" var. The certs are linked to the directory configured via "NGINX_CERTS" var which is used to have a static symlink that points to your cert without getting renamed so you can keep your webserver config untouched.\\
 \\
-The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also created for the "www" subdomain automaticle. If its a subdomain like "blog.andre-bauer.org" this step is skipped.
-
-
+The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also created for the "www" subdomain automaticly. If its a subdomain like "blog.andre-bauer.org" this step is skipped.
 
 letsencrypt-renew.sh
 ====================
@@ -75,7 +73,7 @@ exitcode "nginx reload"
 ~~~
 {: .language-bash}
 
-You can run this script manual to check if everythin works. If so just create the follwoing cronjob, which triggers this monthly. \
+You can run this script manualy to check if everything works. If so just create the following cronjob, which triggers this monthly. \
 
 
 /etc/cron.d/letsencrypt-renew
