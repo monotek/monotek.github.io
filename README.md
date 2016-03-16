@@ -2,7 +2,7 @@
 
 Personal https://jekyllrb.com created blog
 
-build hint:
+deploy on github:
 
 git add . && git commit -m "autocommit" && git push
 
@@ -10,3 +10,6 @@ local test:
 
 jekyll serve
 
+syntax:
+
+http://kramdown.gettalong.org/syntax.html
