@@ -6,10 +6,7 @@ permalink: /about/
 André Bauer
 ===========
 
-* from Dresden
+* from Dresden (Germany)
 * heavy interest in IT
 * Open source enthusiast
-* likes to travel with his caravan
-
-
-
+* likes to travel & camp with his caravan in europe
