@@ -51,13 +51,13 @@ exitcode "create ${NGINX_CERTS} dir"
 
 for DOMAIN in ${DOMAINS}; do
     if [ "$(echo ${DOMAIN} | awk -F . '{print NF-1}')" -gt "1" ]; then
-    actionstart "create cert for ${DOMAIN} without www subdomain"
-    ${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN}
-    exitcode "create cert for ${DOMAIN} without www subdomain"
+	actionstart "create cert for ${DOMAIN} without www subdomain"
+	${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN}
+	exitcode "create cert for ${DOMAIN} without www subdomain"
     else
-    actionstart "create cert for ${DOMAIN} including www sub domain"
-    ${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN} -d www.${DOMAIN}
-    exitcode "create cert for ${DOMAIN} including www sub domain"
+	actionstart "create cert for ${DOMAIN} including www sub domain"
+	${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN} -d www.${DOMAIN}
+	exitcode "create cert for ${DOMAIN} including www sub domain"
     fi
 
     SYMLINK="$(ls ${LETSENCRYPT_CERTS} | egrep "^${DOMAIN}(|-[0-9]{4})$" | tail -n 1 )"
