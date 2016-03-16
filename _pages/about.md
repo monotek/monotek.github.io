@@ -6,7 +6,8 @@ permalink: /about/
 André Bauer
 ===========
 
+* Sysadmin
 * from Dresden (Germany)
 * heavy interest in IT
-* Open source enthusiast
-* likes to travel & camp with his caravan in europe
+* Linux & Open source enthusiast
+* likes to travel & camp with his caravan in all parts of europe
