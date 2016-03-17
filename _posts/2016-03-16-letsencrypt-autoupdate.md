@@ -15,7 +15,7 @@ This script assumes you're using nginx webserver (which is reloaded by the scrip
 \\
 The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also created for the "www" subdomain automaticly. If its a subdomain like "blog.andre-bauer.org" this step is skipped.
 
-/root/scripts/letsencrypt-renew.sh
+/etc/letsencrypt/letsencrypt-renew.sh
 ====================
 
 ~~~
@@ -80,7 +80,7 @@ You can run this script manually to check if everything works. If so just create
 =============================
 
 ~~~
-@monthly root /root/scripts/letsencrypt-renew.sh 2>&1 > /var/tmp/letsencrypt.log
+@monthly root /etc/letsencrypt/letsencrypt-renew.sh 2>&1 > /var/tmp/letsencrypt.log
 ~~~
 
 Thats it. Have fun. Never care about renewing you SSL certs again :-)
