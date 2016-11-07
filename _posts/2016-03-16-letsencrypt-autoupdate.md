@@ -16,62 +16,9 @@ This script assumes you're using nginx webserver (which is reloaded by the scrip
 The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also created for the "www" subdomain automaticly. If its a subdomain like "blog.andre-bauer.org" this step is skipped.
 
 /etc/letsencrypt/letsencrypt-renew.sh
-====================
+=====================================
 
-~~~
-#!/bin/bash
-#
-# letsencrypt renew
-#
-
-#config
-LETSENCRYPT_DIR="/root/letsencrypt"
-LETSENCRYPT_CERTS="/etc/letsencrypt/live"
-WEBSERVER_CERTS="/etc/nginx/ssl"
-DOMAINS="andre-bauer.org blog.andre-bauer.org"
-
-# functions
-function actionstart (){
-    echo -e "\n`date '+%d.%m.%G %H:%M:%S'` - ${1}"
-}
-
-function exitcode (){
-    if [ "$?" = 0 ]; then
-        echo "`date '+%d.%m.%G %H:%M:%S'` - ${1} - ok "
-    else
-        echo "`date '+%d.%m.%G %H:%M:%S'` - ${1} - not ok "
-        let ERROR_COUNT=ERROR_COUNT+1
-    fi
-}
-
-# script
-actionstart "create ${WEBSERVER_CERTS} dir"
-test -d ${WEBSERVER_CERTS} || mkdir -p ${WEBSERVER_CERTS}
-exitcode "create ${WEBSERVER_CERTS} dir"
-
-for DOMAIN in ${DOMAINS}; do
-    if [ "$(echo ${DOMAIN} | awk -F . '{print NF-1}')" -gt "1" ]; then
-	actionstart "create cert for ${DOMAIN} without www subdomain"
-	${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN}
-	exitcode "create cert for ${DOMAIN} without www subdomain"
-    else
-	actionstart "create cert for ${DOMAIN} including www sub domain"
-	${LETSENCRYPT_DIR}/letsencrypt-auto certonly --duplicate --webroot-path /var/www/${DOMAIN}/html/ --webroot -d ${DOMAIN} -d www.${DOMAIN}
-	exitcode "create cert for ${DOMAIN} including www sub domain"
-    fi
-
-    SYMLINK="$(ls ${LETSENCRYPT_CERTS} | egrep "^${DOMAIN}(|-[0-9]{4})$" | tail -n 1 )"
-
-    actionstart "create symlink ${WEBSERVER_CERTS}/${DOMAIN} on ${LETSENCRYPT_CERTS}/${SYMLINK}"
-    ln -fns  ${LETSENCRYPT_CERTS}/${SYMLINK} ${WEBSERVER_CERTS}/${DOMAIN}
-    exitcode "create symlink ${WEBSERVER_CERTS}/${DOMAIN} on ${LETSENCRYPT_CERTS}/${SYMLINK}"
-done
-
-actionstart "nginx reload"
-service nginx reload
-exitcode "nginx reload"
-~~~
-{: .language-bash}
+Find it here: https://github.com/monotek/letsencrypt-renew
 
 You can run this script manually to check if everything works. If so just create the following cronjob, which triggers this monthly. 
 
