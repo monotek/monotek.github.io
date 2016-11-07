@@ -14,11 +14,12 @@ First of all you have to get a phantomjs binary somewhere. If you want to buil i
 
 Now get the mail report scripts from my GitHub page. You can find everything here: <https://github.com/monotek/kibana-mailreports>
 
-You have to edit the kibana-mailreports.sh and urls.conf files to get it work. The urls.conf is the file which defines the reports, which are send to the mail adresses you want. Columns are separated by ;;;. It will loook like:
+You have to edit the kibana-mailreports.sh and urls.conf files to get it work. The urls.conf is the file which defines the reports, which are send to the mail adresses you want. Columns are separated by ";;;". It will loook like:
 
 - your@mail.com;;;OTRS-Reports;;;1w/w;;;Postmaster*;;;1920*1500px;;;last week
 
 The fields are:
+---------------
 - Mail address where report is send to
 - Kibana dashboard which should be used
 - Time interval of the report
