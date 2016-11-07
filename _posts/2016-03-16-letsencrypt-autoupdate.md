@@ -18,7 +18,7 @@ The "DOMAIN" var can have any FQDN. If its a normal domain the cert is also crea
 /etc/letsencrypt/letsencrypt-renew.sh
 =====================================
 
-Find it here: https://github.com/monotek/letsencrypt-renew
+Find it here: <https://github.com/monotek/letsencrypt-renew>
 
 You can run this script manually to check if everything works. If so just create the following cronjob, which triggers this monthly. 
 
