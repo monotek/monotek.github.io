@@ -26,8 +26,6 @@ You can run this script manually to check if everything works. If so just create
 /etc/cron.d/letsencrypt-renew
 =============================
 
-~~~
-@monthly root /etc/letsencrypt/letsencrypt-renew.sh 2>&1 > /var/tmp/letsencrypt.log
-~~~
+- @monthly root /etc/letsencrypt/letsencrypt-renew.sh 2>&1 > /var/tmp/letsencrypt.log
 
 Thats it. Have fun. Never care about renewing you SSL certs again :-)

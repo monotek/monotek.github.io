@@ -16,9 +16,7 @@ Now get the mail report scripts from my GitHub page. You can find everything her
 
 You have to edit the kibana-mailreports.sh and urls.conf files to get it work. The urls.conf is the file which defines the reports, which are send to the mail adresses you want. Columns are separated by ;;;. It will loook like:
 
-~~~
-your@mail.com;;;OTRS-Reports;;;1w/w;;;Postmaster*;;;1920*1500px;;;last week
-~~~ 
+- your@mail.com;;;OTRS-Reports;;;1w/w;;;Postmaster*;;;1920*1500px;;;last week
 
 The fields are:
 - Mail address where report is send to
@@ -29,7 +27,7 @@ The fields are:
 - Human readable time string for use in the report mail
 
 You can run the kibana-mailreports.sh script manually to check if everything works. If so just create the following cronjob, which triggers this weekly.
-~~~
-@weekly root /opt/kibana-mailreports/kibana-mailreports.sh 2>&1 > /var/tmp/kibana-mailreports.log
-~~~
+
+- @weekly root /opt/kibana-mailreports/kibana-mailreports.sh 2>&1 > /var/tmp/kibana-mailreports.log
+
 Thats it. Have fun getting weekly mail reports from Kibana! :-)
