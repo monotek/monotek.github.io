@@ -10,7 +10,7 @@ A lot of people ask for mail reports in <https://www.elastic.co/products/kibana>
 
 It depends on PhantomJS, which can be found on <http://phantomjs.org/>. PhantomJS is a headless WebKit browser scriptable with a JavaScript API. So you're able to browse (Kibana) websites and save them to JPG. These JPGs can be send via mail easily.
 
-First of all you have to get a phantomjs binary somewhere. If you want to buil itd yourselv follow instructions of <http://phantomjs.org/build.html>.
+First of all you have to get a PhantomJS binary somewhere. If you want to build it yourself follow instructions of <http://phantomjs.org/build.html>.
 
 Now get the mail report scripts from my GitHub page. You can find everything here: <https://github.com/monotek/kibana-mailreports>
 
