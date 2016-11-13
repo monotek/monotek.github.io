@@ -1,6 +1,6 @@
 # monotek.github.io / blog.andre-bauer.org
 
-Personal https://jekyllrb.com driven blog
+* Personal https://jekyllrb.com driven blog
 
 ## local test:
 
@@ -8,5 +8,5 @@ Personal https://jekyllrb.com driven blog
 
 ## syntax:
 
-http://kramdown.gettalong.org/syntax.html
+* http://kramdown.gettalong.org/syntax.html
 
