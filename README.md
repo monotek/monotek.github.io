@@ -1,12 +1,12 @@
-# monotek.github.io
+# monotek.github.io / blog.andre-bauer.org
 
-Personal https://jekyllrb.com created blog
+Personal https://jekyllrb.com driven blog
 
-local test:
+## local test:
 
-jekyll serve
+* jekyll serve
 
-syntax:
+## syntax:
 
 http://kramdown.gettalong.org/syntax.html
 
