@@ -1,5 +1,5 @@
 main:
     - { url: '/', text: 'Blog' }
-#    - { url: '/archive', text: 'Archive' }
-    - { url: '/about', text: 'About' }
-    - { url: '/contact', text: 'Contact' }
+#    - { url: '/archive/', text: 'Archive' }
+    - { url: '/about/', text: 'About' }
+    - { url: '/contact/', text: 'Contact' }
