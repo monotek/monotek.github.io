@@ -6,13 +6,13 @@ categories: ubuntu glusterfs libvirt qemu samba launchpad
 tags: Blog
 ---
 
-Unfortunately GlusterFS is in the Ubuntu multiverse repository. Therefore Libvirt, Qemu & Samba and other packages from universe repository are build without GlusterFS LibGfApi support.
+Unfortunately GlusterFS is in the Ubuntu universe repository. Therefore Libvirt, Qemu & Samba and other packages from main repository are build without GlusterFS LibGfApi support.
 
 For this reason i have created some PPAs on Launchpad which contain these packages with GlusterFS support.
 
 Just visit: [https://launchpad.net/~monotek](https://launchpad.net/~monotek)
 
-Updates to this PPAs are anounced on my [Twitter channel](https://twitter.com/mono_tek)
+Updates to this PPAs are announced on my [Twitter channel](https://twitter.com/mono_tek)
 
 
 
