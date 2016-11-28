@@ -10,6 +10,10 @@ Unfortunately GlusterFS is in the Ubuntu multiverse repository. Therefore Libvir
 
 For this reason i have created some PPAs on Launchpad which contain these packages with GlusterFS support.
 
-Just visit: https://launchpad.net/~monotek
+Just visit: [https://launchpad.net/~monotek](https://launchpad.net/~monotek)
+
+Updates to this PPAs are anounced on my [Twitter channel](https://twitter.com/mono_tek)
+
+
 
 
