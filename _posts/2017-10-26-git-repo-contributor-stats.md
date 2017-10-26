@@ -6,7 +6,7 @@ categories: stats git
 tags: Blog
 ---
 
-In one bash line:
+In bash:
 
 ```
     for CONTRIBUTOR in $(git log --format='%ae' | sort -u); do 
