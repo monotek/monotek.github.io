@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: 'Git Repo contributor statistics'
+title: 'Git repo contributor statistics'
 date: 2017-10-26 12:00:00
 categories: stats git
 tags: Blog
