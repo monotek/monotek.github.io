@@ -9,7 +9,7 @@ tags: Blog
 #lead_text: ' bla bla'
 ---
 
-*** This is outdated. Use one of the follwing tools instead: ***
+*** This is outdated. Use one of the following tools instead: ***
 
 * https://certbot.eff.org/
 * https://acme.sh
