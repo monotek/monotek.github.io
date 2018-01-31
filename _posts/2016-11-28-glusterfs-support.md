@@ -8,7 +8,7 @@ tags: Blog
 
 *** 
 
-As i don't us GlusterFS at the moment my repo is outdated. Maybe you can use my buildscripts to create your own DEB packages 
+Update: As i don't use GlusterFS at the moment my repo is outdated. Maybe you can use my old buildscripts to create your own DEB packages 
 
  * https://github.com/monotek/glusterfs-launchpad-buildscripts
 
