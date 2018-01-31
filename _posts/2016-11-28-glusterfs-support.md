@@ -6,6 +6,14 @@ categories: ubuntu glusterfs libvirt qemu samba launchpad tgt
 tags: Blog
 ---
 
+*** 
+
+As i don't us GlusterFS at the moment my repo is outdated. Maybe you can use my buildscripts to create your own DEB packages 
+
+ * https://github.com/monotek/glusterfs-launchpad-buildscripts
+
+***
+
 Unfortunately GlusterFS is in the Ubuntu universe repository. Therefore Libvirt, Qemu, Samba, TGT and other packages from main repository are build without GlusterFS LibGfApi support.
 
 For this reason i've created some PPAs on Launchpad which contain these packages with GlusterFS support.
