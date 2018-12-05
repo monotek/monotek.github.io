@@ -11,4 +11,5 @@ You can just use Github pages to serve your charts.
 ** mv index.yaml *.tgz /your/github/page/repo/charts
 * Add your Helm repo to helm
 ** helm repo add monotek https://monotek.github.io/charts
-
+* If you want to have your repo files browsable, got to the charts directory and enter:
+** perl -e 'print "<html><body><ul>"; while(<>) { chop $_; print "<li><a href=\"./$_\">$_</a></li>";} print "</ul></body></html>"' > index.html
