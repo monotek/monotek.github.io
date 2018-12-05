@@ -1,0 +1,53 @@
+apiVersion: v1
+entries:
+  fluentd-elasticsearch:
+  - appVersion: 2.3.2
+    created: 2018-12-05T23:13:08.801792018+01:00
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: 28d5bb99901538943a28155e177f5aead6b74f4e2ef435959ba2db5fcffa6dc3
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kubernetes/charts/stable/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    - https://github.com/monotek/helm-charts/charts/fluentd-elasticsearch
+    urls:
+    - https://monotek.github.io/charts/fluentd-elasticsearch-1.4.1.tgz
+    version: 1.4.1
+  graphite:
+  - apiVersion: v1
+    appVersion: 1.1.4-10
+    created: 2018-12-05T23:13:08.803102464+01:00
+    description: Graphite metrics server
+    digest: 941d1fc30fe0e2e59ab302cec7bf8574d20f3716e59ee69163b9649f0c061108
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    - https://github.com/monotek/helm-charts/charts/graphite
+    urls:
+    - https://monotek.github.io/charts/graphite-0.1.4.tgz
+    version: 0.1.4
+generated: 2018-12-05T23:13:08.80062852+01:00
