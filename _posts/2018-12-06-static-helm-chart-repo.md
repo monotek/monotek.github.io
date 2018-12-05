@@ -1,4 +1,10 @@
-# Static Helm chart repo on Github pages
+---
+layout: inner
+title: 'Static Helm chart repo on Github pages'
+date: 2018-12-05 15:00:00
+categories: helm repo kubernetes 
+tags: Blog
+---
 
 If you ever want to host a Helm chart Repo for Kubernetes apps you're not forced to use Monocular or Chartmuseum. 
 You can just use Github pages to serve your charts.
