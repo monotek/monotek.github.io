@@ -15,25 +15,25 @@ You can just use Github pages to serve your charts.
     helm package chartname
 ```    
 
-* Create index via
+* Create index via:
 
 ```
     helm repo index --merge index.yaml --url https://monotek.github.io/charts .
 ```    
 
-* Move everything to your Github packe in a "charts" directoy
+* Move everything to your Github packe in a "charts" directoy:
 
 ```
     mv index.yaml *.tgz /your/github/page/repo/charts
 ```    
 
-* Add your Helm repo to helm
+* Add your Helm repo to helm:
 
 ```
     helm repo add monotek https://monotek.github.io/charts
 ```    
 
-* If you want to have your repo files browsable, got to the charts directory and enter:
+* If you want to have your repo files browsable, go to the charts directory and enter:
 
 ```
     perl -e 'print "<html><body><ul>"; while(<>) { chop $_; print "<li><a href=\"./$_\">$_</a></li>";} print "</ul></body></html>"' > index.html
