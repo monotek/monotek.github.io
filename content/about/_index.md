@@ -7,7 +7,7 @@ André Bauer
 
 * Sysadmin / Cloud engineer
 * from Dresden (Germany)
-* Building solutions for a new energy world [Kiwigrid](https://kiwigrid.com)
+* Building solutions for a new energy world @ [Kiwigrid](https://kiwigrid.com)
 * heavy interest in IT
 * Linux & Open source enthusiast
 * Member of the [Zammad](https://zammad.org) project
