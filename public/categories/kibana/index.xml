@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kibana on Just another IT(?) blog</title>
+    <link>https://monotek.github.io/categories/kibana/</link>
+    <description>Recent content in Kibana on Just another IT(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://monotek.github.io/categories/kibana/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mailreports from Kibana pages via PhantomJS</title>
+      <link>https://monotek.github.io/posts/2016-11-07-kibana-mailreports/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-11-07-kibana-mailreports/</guid>
+      <description>A lot of people ask for mail reports in https://www.elastic.co/products/kibana but this feature does not exist. At least not in the oss version. As i also had these requirement for an OTRS installation and don&amp;rsquo;t wanted to use expensive software like Skedler, i decided to create an own solution.
+It depends on PhantomJS, which can be found on http://phantomjs.org/. PhantomJS is a headless WebKit browser scriptable with a JavaScript API.</description>
+    </item>
+    
+  </channel>
+</rss>

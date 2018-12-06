@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Letsencrypt on Just another IT(?) blog</title>
+    <link>https://monotek.github.io/categories/letsencrypt/</link>
+    <description>Recent content in Letsencrypt on Just another IT(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Mar 2016 15:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://monotek.github.io/categories/letsencrypt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monthly autoupdates of letsencrypt certs</title>
+      <link>https://monotek.github.io/posts/2016-03-16-letsencrypt-autoupdate/</link>
+      <pubDate>Wed, 16 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-03-16-letsencrypt-autoupdate/</guid>
+      <description>*** This is outdated. Use one of the following tools instead: ***
+ https://certbot.eff.org/ https://acme.sh https://github.com/hlandau/acme  Old Post:
+http://letsencrypt.org is cool, because it provides SSL certs for all of your domains for free! The only thing which is a bit challenging is that you have to renew your certs every 3 months. I made a script which, monthly triggered by cron, can do this for you.
+This script assumes you&amp;rsquo;re using nginx webserver (which is reloaded by the script after recreating certs) and that your domains are located in &amp;ldquo;/var/www/domain.</description>
+    </item>
+    
+  </channel>
+</rss>

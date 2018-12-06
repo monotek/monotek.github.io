@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Just another IT(?) blog</title>
+    <link>https://monotek.github.io/categories/</link>
+    <description>Recent content in Categories on Just another IT(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Mar 2016 15:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://monotek.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://monotek.github.io/categories/blog/</link>
+      <pubDate>Tue, 15 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chart</title>
+      <link>https://monotek.github.io/categories/chart/</link>
+      <pubDate>Wed, 05 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/chart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://monotek.github.io/categories/git/</link>
+      <pubDate>Thu, 26 Oct 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glusterfs</title>
+      <link>https://monotek.github.io/categories/glusterfs/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/glusterfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helm</title>
+      <link>https://monotek.github.io/categories/helm/</link>
+      <pubDate>Wed, 05 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kibana</title>
+      <link>https://monotek.github.io/categories/kibana/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/kibana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://monotek.github.io/categories/kubernetes/</link>
+      <pubDate>Wed, 05 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launchpad</title>
+      <link>https://monotek.github.io/categories/launchpad/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/launchpad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Letsencrypt</title>
+      <link>https://monotek.github.io/categories/letsencrypt/</link>
+      <pubDate>Wed, 16 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/letsencrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libvirt</title>
+      <link>https://monotek.github.io/categories/libvirt/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/libvirt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mail</title>
+      <link>https://monotek.github.io/categories/mail/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailreports</title>
+      <link>https://monotek.github.io/categories/mailreports/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/mailreports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Otrs</title>
+      <link>https://monotek.github.io/categories/otrs/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/otrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phantomjs</title>
+      <link>https://monotek.github.io/categories/phantomjs/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/phantomjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qemu</title>
+      <link>https://monotek.github.io/categories/qemu/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repo</title>
+      <link>https://monotek.github.io/categories/repo/</link>
+      <pubDate>Wed, 05 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/repo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://monotek.github.io/categories/reports/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samba</title>
+      <link>https://monotek.github.io/categories/samba/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/samba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skedler</title>
+      <link>https://monotek.github.io/categories/skedler/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/skedler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>https://monotek.github.io/categories/ssl/</link>
+      <pubDate>Wed, 16 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stats</title>
+      <link>https://monotek.github.io/categories/stats/</link>
+      <pubDate>Thu, 26 Oct 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tgt</title>
+      <link>https://monotek.github.io/categories/tgt/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/tgt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://monotek.github.io/categories/ubuntu/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
