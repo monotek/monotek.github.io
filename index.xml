@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ananke: a Hugo Theme on Just another IT(?) blog</title>
+    <title>Just anoteher IT(?) blog... on Just another IT(?) blog</title>
     <link>https://monotek.github.io/</link>
-    <description>Recent content in Ananke: a Hugo Theme on Just another IT(?) blog</description>
+    <description>Recent content in Just anoteher IT(?) blog... on Just another IT(?) blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Dec 2018 15:00:00 +0000</lastBuildDate>
