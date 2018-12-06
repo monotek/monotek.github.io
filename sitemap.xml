@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2018-12-06-static-helm-chart-repo/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2017-10-26-git-repo-contributor-stats/</loc>
+    <lastmod>2017-10-26T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2016-11-28-glusterfs-support/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2016-11-07-kibana-mailreports/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2016-03-16-letsencrypt-autoupdate/</loc>
+    <lastmod>2016-03-16T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/2016-03-15-start/</loc>
+    <lastmod>2016-03-15T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/tags/blog/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/blog/</loc>
+    <lastmod>2016-03-15T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/</loc>
+    <lastmod>2016-03-15T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/chart/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/git/</loc>
+    <lastmod>2017-10-26T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/glusterfs/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/helm/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/kibana/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/kubernetes/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/launchpad/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/letsencrypt/</loc>
+    <lastmod>2016-03-16T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/libvirt/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/mail/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/mailreports/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/otrs/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/phantomjs/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/posts/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/qemu/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/repo/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/reports/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/samba/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/skedler/</loc>
+    <lastmod>2016-11-07T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/ssl/</loc>
+    <lastmod>2016-03-16T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/stats/</loc>
+    <lastmod>2017-10-26T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/tags/</loc>
+    <lastmod>2018-12-05T15:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/tgt/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://monotek.github.io/categories/ubuntu/</loc>
+    <lastmod>2016-11-28T19:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
