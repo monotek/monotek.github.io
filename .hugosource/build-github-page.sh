@@ -12,7 +12,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo
 
 # rsync to github page dir (repo root)
-rsync -av --delete --exclude=.hugosource --exclude=.git --exclude=.github "${REPO_ROOT}/${HUGO_SOURCE_DIR}/public/" "${REPO_ROOT}"
+rsync -av --delete --exclude=.hugosource --exclude=.git --exclude=.github --exclude=charts "${REPO_ROOT}/${HUGO_SOURCE_DIR}/public/" "${REPO_ROOT}"
 
 # Add changes to git.
 git add --all .
