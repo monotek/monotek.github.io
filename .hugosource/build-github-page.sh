@@ -8,6 +8,9 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# delete old public dir
+rm -r "${REPO_ROOT}/${HUGO_SOURCE_DIR}/public/"
+
 # Build the page
 hugo
 
