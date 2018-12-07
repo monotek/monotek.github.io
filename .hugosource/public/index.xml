@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Just anoteher IT(?) blog... on Just another IT(?) blog</title>
+    <link>https://monotek.github.io/</link>
+    <description>Recent content in Just anoteher IT(?) blog... on Just another IT(?) blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Dec 2018 23:49:38 +0100</lastBuildDate>
+    
+	<atom:link href="https://monotek.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Move From Jekyllrb to GoHugo</title>
+      <link>https://monotek.github.io/posts/2018-12-06-move-from-jekyllrb-to-hugo/</link>
+      <pubDate>Wed, 05 Dec 2018 23:49:38 +0100</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2018-12-06-move-from-jekyllrb-to-hugo/</guid>
+      <description>Moved the site from jekyllrb.com to gohugo.io static site generation&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Static Helm chart repo on Github pages</title>
+      <link>https://monotek.github.io/posts/2018-12-06-static-helm-chart-repo/</link>
+      <pubDate>Wed, 05 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2018-12-06-static-helm-chart-repo/</guid>
+      <description>If you ever want to host a Helm chart Repo for Kubernetes apps you&amp;rsquo;re not forced to use Monocular or Chartmuseum. You can just use Github pages to serve your charts.
+ Create chart package via  helm package chartname   Create index via:  helm repo index --merge index.yaml --url https://monotek.github.io/charts .   Move everything to your Github packe in a &amp;ldquo;charts&amp;rdquo; directoy:  mv index.yaml *.tgz /your/github/page/repo/charts   Add your Helm repo to helm:  helm repo add monotek https://monotek.</description>
+    </item>
+    
+    <item>
+      <title>Git repo contributor statistics</title>
+      <link>https://monotek.github.io/posts/2017-10-26-git-repo-contributor-stats/</link>
+      <pubDate>Thu, 26 Oct 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2017-10-26-git-repo-contributor-stats/</guid>
+      <description>In bash:
+ for CONTRIBUTOR in $(git log --format=&#39;%ae&#39; | sort -u); do echo &amp;quot;${CONTRIBUTOR}&amp;quot;;git log --shortstat --author=&amp;quot;${CONTRIBUTOR}&amp;quot; | \ grep -E &amp;quot;fil(e|es) changed&amp;quot; | \ awk &#39;{files+=$1; inserted+=$4; deleted+=$6} END {print &amp;quot;files changed: &amp;quot;, files, &amp;quot;lines inserted: &amp;quot;, inserted, &amp;quot;lines deleted: &amp;quot;, deleted }&#39; done  </description>
+    </item>
+    
+    <item>
+      <title>GlusterFS support for Libvirt, Qemu, Samba &amp; TGT in Ubuntu</title>
+      <link>https://monotek.github.io/posts/2016-11-28-glusterfs-support/</link>
+      <pubDate>Mon, 28 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-11-28-glusterfs-support/</guid>
+      <description>Update: As i don&amp;rsquo;t use GlusterFS at the moment my repo is outdated. Maybe you can use my old buildscripts to create your own DEB packages
+ https://github.com/monotek/glusterfs-launchpad-buildscripts  Unfortunately GlusterFS is in the Ubuntu universe repository. Therefore Libvirt, Qemu, Samba, TGT and other packages from main repository are build without GlusterFS LibGfApi support.
+For this reason i&amp;rsquo;ve created some PPAs on Launchpad which contain these packages with GlusterFS support.</description>
+    </item>
+    
+    <item>
+      <title>Mailreports from Kibana pages via PhantomJS</title>
+      <link>https://monotek.github.io/posts/2016-11-07-kibana-mailreports/</link>
+      <pubDate>Mon, 07 Nov 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-11-07-kibana-mailreports/</guid>
+      <description>A lot of people ask for mail reports in https://www.elastic.co/products/kibana but this feature does not exist. At least not in the oss version. As i also had these requirement for an OTRS installation and don&amp;rsquo;t wanted to use expensive software like Skedler, i decided to create an own solution.
+It depends on PhantomJS, which can be found on http://phantomjs.org/. PhantomJS is a headless WebKit browser scriptable with a JavaScript API.</description>
+    </item>
+    
+    <item>
+      <title>Monthly autoupdates of letsencrypt certs</title>
+      <link>https://monotek.github.io/posts/2016-03-16-letsencrypt-autoupdate/</link>
+      <pubDate>Wed, 16 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-03-16-letsencrypt-autoupdate/</guid>
+      <description>*** This is outdated. Use one of the following tools instead: ***
+ https://certbot.eff.org/ https://acme.sh https://github.com/hlandau/acme  Old Post:
+http://letsencrypt.org is cool, because it provides SSL certs for all of your domains for free! The only thing which is a bit challenging is that you have to renew your certs every 3 months. I made a script which, monthly triggered by cron, can do this for you.
+This script assumes you&amp;rsquo;re using nginx webserver (which is reloaded by the script after recreating certs) and that your domains are located in &amp;ldquo;/var/www/domain.</description>
+    </item>
+    
+    <item>
+      <title>Start...</title>
+      <link>https://monotek.github.io/posts/2016-03-15-start/</link>
+      <pubDate>Tue, 15 Mar 2016 15:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2016-03-15-start/</guid>
+      <description>https://jekyllrb.com driven blog running on https://pages.github.com/. Just installed to see how Jekyll works. Content, blogs, notes, whatsoever following later. Maybe ;-)</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://monotek.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://monotek.github.io/contact/</guid>
+      <description> Find me on:  DockerHub GitHub Launchpad LinkedIn Twitter Xing  </description>
+    </item>
+    
+  </channel>
+</rss>
