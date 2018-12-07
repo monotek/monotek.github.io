@@ -203,8 +203,213 @@
         <div class="posts-list">
           
           
+            <article class="post-preview">
+              <a href="https://monotek.github.io/posts/2018-12-06-move-from-jekyllrb-to-hugo/">
+                <h2 class="post-title">Move From Jekyllrb to GoHugo</h2>
+                
+                
+              </a>
+
+              <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 5, 2018
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  <p>Moved the site from jekyllrb.com to gohugo.io static site generation&hellip;</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://monotek.github.io/tags/blog/">Blog</a>&nbsp;
+                  
+                </div>
+              
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://monotek.github.io/posts/2018-12-06-static-helm-chart-repo/">
+                <h2 class="post-title">Static Helm chart repo on Github pages</h2>
+                
+                
+              </a>
+
+              <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 5, 2018
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  If you ever want to host a Helm chart Repo for Kubernetes apps you&rsquo;re not forced to use Monocular or Chartmuseum. You can just use Github pages to serve your charts.
+ Create chart package via  helm package chartname   Create index via:  helm repo index --merge index.yaml --url https://monotek.github.io/charts .   Move everything to your Github packe in a &ldquo;charts&rdquo; directoy:  mv index.yaml *.tgz /your/github/page/repo/charts   Add your Helm repo to helm:  helm repo add monotek https://monotek.
+                  <a href="https://monotek.github.io/posts/2018-12-06-static-helm-chart-repo/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://monotek.github.io/tags/blog/">Blog</a>&nbsp;
+                  
+                </div>
+              
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://monotek.github.io/posts/2017-10-26-git-repo-contributor-stats/">
+                <h2 class="post-title">Git repo contributor statistics</h2>
+                
+                
+              </a>
+
+              <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 26, 2017
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  <p>In bash:</p>
+
+<pre><code>    for CONTRIBUTOR in $(git log --format='%ae' | sort -u); do
+      echo &quot;${CONTRIBUTOR}&quot;;git log --shortstat --author=&quot;${CONTRIBUTOR}&quot; | \
+        grep -E &quot;fil(e|es) changed&quot; | \
+        awk '{files+=$1; inserted+=$4; deleted+=$6} END {print &quot;files changed: &quot;, files, &quot;lines inserted: &quot;, inserted, &quot;lines deleted: &quot;, deleted }'
+    done
+</code></pre>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://monotek.github.io/tags/blog/">Blog</a>&nbsp;
+                  
+                </div>
+              
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://monotek.github.io/posts/2016-11-28-glusterfs-support/">
+                <h2 class="post-title">GlusterFS support for Libvirt, Qemu, Samba &amp; TGT in Ubuntu</h2>
+                
+                
+              </a>
+
+              <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 28, 2016
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  Update: As i don&rsquo;t use GlusterFS at the moment my repo is outdated. Maybe you can use my old buildscripts to create your own DEB packages
+ https://github.com/monotek/glusterfs-launchpad-buildscripts  Unfortunately GlusterFS is in the Ubuntu universe repository. Therefore Libvirt, Qemu, Samba, TGT and other packages from main repository are build without GlusterFS LibGfApi support.
+For this reason i&rsquo;ve created some PPAs on Launchpad which contain these packages with GlusterFS support.
+                  <a href="https://monotek.github.io/posts/2016-11-28-glusterfs-support/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://monotek.github.io/tags/blog/">Blog</a>&nbsp;
+                  
+                </div>
+              
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://monotek.github.io/posts/2016-11-07-kibana-mailreports/">
+                <h2 class="post-title">Mailreports from Kibana pages via PhantomJS</h2>
+                
+                
+              </a>
+
+              <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 7, 2016
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+  
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  A lot of people ask for mail reports in https://www.elastic.co/products/kibana but this feature does not exist. At least not in the oss version. As i also had these requirement for an OTRS installation and don&rsquo;t wanted to use expensive software like Skedler, i decided to create an own solution.
+It depends on PhantomJS, which can be found on http://phantomjs.org/. PhantomJS is a headless WebKit browser scriptable with a JavaScript API.
+                  <a href="https://monotek.github.io/posts/2016-11-07-kibana-mailreports/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://monotek.github.io/tags/blog/">Blog</a>&nbsp;
+                  
+                </div>
+              
+            </article>
+          
         </div>
 
+        
+          <ul class="pager main-pager">
+            
+            
+              <li class="next">
+                <a href="/page/2/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
         
       </div>
     </div>
