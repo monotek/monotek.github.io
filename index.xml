@@ -6,10 +6,19 @@
     <description>Recent content in Just anoteher IT(?) blog... on Just another IT(?) blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Dec 2018 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Dec 2018 23:49:38 +0100</lastBuildDate>
     
 	<atom:link href="https://monotek.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Move From Jekyllrb to Hugo</title>
+      <link>https://monotek.github.io/posts/2018-12-06-move-from-jekyllrb-to-hugo/</link>
+      <pubDate>Wed, 05 Dec 2018 23:49:38 +0100</pubDate>
+      
+      <guid>https://monotek.github.io/posts/2018-12-06-move-from-jekyllrb-to-hugo/</guid>
+      <description>Moved the site from jekyllrb.com to gohugo.io static site generation&amp;hellip;</description>
+    </item>
     
     <item>
       <title>Static Helm chart repo on Github pages</title>
